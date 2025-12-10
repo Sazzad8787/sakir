@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Election Campaign</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalpurush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body data-page-title="about.title">
+    <!-- Header (Same as index.html) -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">VEC</div>
+                    <div class="logo-text">Village Election</div>
+                </a>
+                
+                <div class="controls">
+                    <button id="themeToggle" class="theme-toggle">
+                        <span>🌙</span> <span>Dark</span>
+                    </button>
+                    <button id="langToggle" class="lang-toggle">
+                        <span>🇧🇦</span> <span data-lang="btn.language">বাংলা</span>
+                    </button>
+                    <button id="menuToggle" class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation (Same as index.html) -->
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h3 data-lang="nav.menu">Menu</h3>
+            <button id="closeMenu" class="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link"><i class="nav-icon fas fa-home"></i><span data-lang="nav.home">Home</span></a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link active"><i class="nav-icon fas fa-user"></i><span data-lang="nav.about">About</span></a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link"><i class="nav-icon fas fa-phone"></i><span data-lang="nav.contact">Contact</span></a></li>
+            <li class="nav-item"><a href="news.html" class="nav-link"><i class="nav-icon fas fa-newspaper"></i><span data-lang="nav.news">News & Events</span></a></li>
+            <li class="nav-item"><a href="download.html" class="nav-link"><i class="nav-icon fas fa-download"></i><span data-lang="nav.downloads">Downloads</span></a></li>
+            <li class="nav-item"><a href="reviews.html" class="nav-link"><i class="nav-icon fas fa-star"></i><span data-lang="nav.reviews">Voter Reviews</span></a></li>
+            <li class="nav-item"><a href="map.html" class="nav-link"><i class="nav-icon fas fa-map"></i><span data-lang="nav.map">Village Map</span></a></li>
+            <li class="nav-item"><a href="notice.html" class="nav-link"><i class="nav-icon fas fa-bullhorn"></i><span data-lang="nav.notice">Notice Board</span></a></li>
+            <li class="nav-item"><a href="developer.html" class="nav-link"><i class="nav-icon fas fa-code"></i><span data-lang="nav.developer">Developer</span></a></li>
+        </ul>
+    </div>
+    <div id="overlay" class="overlay"></div>
+
+    <!-- Page Content -->
+    <section class="section">
+        <div class="container">
+            <h1 class="section-title" data-lang="about.title">About the Candidate</h1>
+            
+            <div class="card">
+                <div class="card-content">
+                    <div style="display: flex; align-items: center; gap: 30px; margin-bottom: 30px; flex-wrap: wrap;">
+                        <img src="assets/images/candidate.jpg" alt="Candidate" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+                        <div>
+                            <h2>Md. Abdul Karim</h2>
+                            <p style="color: var(--primary-color); font-size: 1.2rem; margin-bottom: 10px;">Union Member Candidate</p>
+                            <p>"Born and raised in this village, I understand our community's needs better than anyone."</p>
+                        </div>
+                    </div>
+                    
+                    <div class="content-section">
+                        <h3 data-lang="about.biography">Biography</h3>
+                        <p>Born in 1975 in this very village, I completed my secondary education at the local school and graduated with a degree in Social Science. For the past 20 years, I have been actively involved in community service, starting as a volunteer in various social organizations and eventually serving as a member of the village development committee.</p>
+                        
+                        <p>My experience includes coordinating relief efforts during natural disasters, organizing adult literacy programs, and mediating local disputes. I believe in practical, grassroots-level work that directly impacts people's lives.</p>
+                    </div>
+                    
+                    <div class="content-section" style="margin-top: 40px;">
+                        <div class="card-grid">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h3 data-lang="about.mission">Mission</h3>
+                                    <p>To create a transparent, accountable, and participatory local governance system that prioritizes the welfare of every villager, especially the marginalized sections of society.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="card">
+                                <div class="card-content">
+                                    <h3 data-lang="about.vision">Vision</h3>
+                                    <p>A self-reliant, digitally empowered village where every resident has access to quality education, healthcare, employment opportunities, and a dignified standard of living.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="content-section" style="margin-top: 40px;">
+                        <h3 data-lang="about.story">Personal Story</h3>
+                        <p>Growing up in a farmer's family, I witnessed firsthand the struggles our villagers face - from lack of proper roads during monsoon to inadequate healthcare facilities. When my own mother had to be carried on a makeshift stretcher for 5 kilometers to reach the nearest health center, I realized something had to change.</p>
+                        
+                        <p>This personal experience ignited my passion for public service. I started small - organizing community clean-up drives, helping elderly citizens access government schemes, and tutoring children after school. These small steps eventually led me to take up larger community responsibilities.</p>
+                    </div>
+                    
+                    <div class="content-section" style="margin-top: 40px;">
+                        <h3 data-lang="about.whyVote">Why Vote for Me?</h3>
+                        <ul style="margin-top: 20px; padding-left: 20px;">
+                            <li>20 years of dedicated community service</li>
+                            <li>Proven track record of getting work done</li>
+                            <li>Transparent and accountable governance approach</li>
+                            <li>Deep understanding of local issues and challenges</li>
+                            <li>Commitment to inclusive development for all</li>
+                            <li>Accessible to villagers at all times</li>
+                            <li>Practical, implementable development plans</li>
+                            <li>Clean record with no allegations of corruption</li>
+                        </ul>
+                        
+                        <p style="margin-top: 20px; font-style: italic; color: var(--primary-color);">
+                            "I don't make promises I can't keep. I present practical solutions to our village's problems, with clear timelines and transparent implementation plans."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-lang="footer.about">About Campaign</h3>
+                    <p>A grassroots movement for positive change in our village.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-lang="footer.quickLinks">Quick Links</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="index.html" style="color: var(--text-color); text-decoration: none;">Home</a></li>
+                        <li><a href="news.html" style="color: var(--text-color); text-decoration: none;">Latest News</a></li>
+                        <li><a href="download.html" style="color: var(--text-color); text-decoration: none;">Campaign Materials</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-lang="footer.contact">Contact Info</h3>
+                    <p>Village Union Parishad Office<br>
+                    Contact: +880 1XXX-XXXXXX</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2024</span> Village Election Campaign. <span data-lang="footer.copyright">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

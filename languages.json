@@ -1,0 +1,40 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact",
+      "news": "News & Events",
+      "downloads": "Downloads",
+      "reviews": "Voter Reviews",
+      "map": "Village Map",
+      "notice": "Notice Board",
+      "developer": "Developer"
+    },
+    "home": {
+      "title": "Home - Election Campaign",
+      "heroTitle": "Your Voice, Our Village",
+      "slogan": "Together for a Better Tomorrow"
+    }
+    // ... more translations
+  },
+  "bn": {
+    "nav": {
+      "home": "হোম",
+      "about": "পরিচিতি",
+      "contact": "যোগাযোগ",
+      "news": "খবর ও অনুষ্ঠান",
+      "downloads": "ডাউনলোড",
+      "reviews": "ভোটার মতামত",
+      "map": "গ্রামের মানচিত্র",
+      "notice": "নোটিশ বোর্ড",
+      "developer": "ডেভেলপার"
+    },
+    "home": {
+      "title": "হোম - নির্বাচনী প্রচারণা",
+      "heroTitle": "আপনার কণ্ঠস্বর, আমাদের গ্রাম",
+      "slogan": "উন্নত ভবিষ্যতের জন্য একসাথে"
+    }
+    // ... more translations
+  }
+}

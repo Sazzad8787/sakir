@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Election Campaign</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalpurush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body data-page-title="contact.title">
+    <!-- Header -->
+    <div class="container">
+    <div class="header-content">
+        <a href="index.html" class="logo">
+            <img src="image1.jpeg" alt="Village Election Logo" class="logo-icon">
+            <div class="logo-text">Village Election</div>
+        </a>
+                  <div class="controls">
+                    <button id="themeToggle" class="theme-toggle">
+                        <span>🌙</span> <span>Dark</span>
+                    </button>
+                    <button id="langToggle" class="lang-toggle">
+                        <span>🇧🇦</span> <span data-lang="btn.language">বাংলা</span>
+                    </button>
+                    <button id="menuToggle" class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h3 data-lang="nav.menu">Menu</h3>
+            <button id="closeMenu" class="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link"><i class="nav-icon fas fa-home"></i><span data-lang="nav.home">Home</span></a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link"><i class="nav-icon fas fa-user"></i><span data-lang="nav.about">About</span></a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link active"><i class="nav-icon fas fa-phone"></i><span data-lang="nav.contact">Contact</span></a></li>
+            <li class="nav-item"><a href="news.html" class="nav-link"><i class="nav-icon fas fa-newspaper"></i><span data-lang="nav.news">News & Events</span></a></li>
+            <li class="nav-item"><a href="download.html" class="nav-link"><i class="nav-icon fas fa-download"></i><span data-lang="nav.downloads">Downloads</span></a></li>
+            <li class="nav-item"><a href="reviews.html" class="nav-link"><i class="nav-icon fas fa-star"></i><span data-lang="nav.reviews">Voter Reviews</span></a></li>
+            <li class="nav-item"><a href="map.html" class="nav-link"><i class="nav-icon fas fa-map"></i><span data-lang="nav.map">Village Map</span></a></li>
+            <li class="nav-item"><a href="notice.html" class="nav-link"><i class="nav-icon fas fa-bullhorn"></i><span data-lang="nav.notice">Notice Board</span></a></li>
+            <li class="nav-item"><a href="developer.html" class="nav-link"><i class="nav-icon fas fa-code"></i><span data-lang="nav.developer">Developer</span></a></li>
+        </ul>
+    </div>
+    <div id="overlay" class="overlay"></div>
+
+    <!-- Contact Page Content -->
+    <section class="section">
+        <div class="container">
+            <h1 class="section-title" data-lang="contact.title">Get In Touch</h1>
+            
+            <div class="card-grid">
+                <!-- Contact Form -->
+                <div class="card">
+                    <div class="card-content">
+                        <h3 data-lang="contact.formTitle">Send Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label class="form-label" data-lang="contact.name">Your Name</label>
+                                <input type="text" class="form-control" name="name" required data-lang-placeholder="contact.name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" data-lang="contact.number">Phone Number</label>
+                                <input type="tel" class="form-control" name="number" required data-lang-placeholder="contact.number">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="form-label" data-lang="contact.message">Your Message</label>
+                                <textarea class="form-control" name="message" required data-lang-placeholder="contact.message"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn" data-lang="common.submit">Submit Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Contact Details -->
+                <div class="card">
+                    <div class="card-content">
+                        <h3 data-lang="contact.details">Contact Details</h3>
+                        
+                        <div style="margin-top: 30px;">
+                            <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                                <div style="width: 50px; height: 50px; border-radius: 50%; background-color: var(--primary-color); display: flex; align-items: center; justify-content: center; color: white;">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4>Campaign Office</h4>
+                                    <p data-lang="contact.address">Village Office, Union Parishad</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                                <div style="width: 50px; height: 50px; border-radius: 50%; background-color: var(--secondary-color); display: flex; align-items: center; justify-content: center; color: white;">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h4>Phone Numbers</h4>
+                                    <p>+880 1712-345678 (Candidate)<br>
+                                    +880 1912-345679 (Office)</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                                <div style="width: 50px; height: 50px; border-radius: 50%; background-color: var(--accent-color); display: flex; align-items: center; justify-content: center; color: white;">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <h4>Office Hours</h4>
+                                    <p data-lang="contact.hours">Available: 9 AM - 5 PM</p>
+                                    <p>Friday: 3 PM - 6 PM</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <div style="width: 50px; height: 50px; border-radius: 50%; background-color: #6c757d; display: flex; align-items: center; justify-content: center; color: white;">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>candidate@election.example<br>
+                                    support@village-election.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="margin-top: 30px; padding: 20px; background-color: var(--surface-color); border-radius: 8px; border-left: 4px solid var(--primary-color);">
+                            <h4>Volunteer Opportunities</h4>
+                            <p>Join our campaign team! We need volunteers for:</p>
+                            <ul style="margin-top: 10px; padding-left: 20px;">
+                                <li>Door-to-door campaigning</li>
+                                <li>Social media management</li>
+                                <li>Event organization</li>
+                                <li>Voter registration assistance</li>
+                            </ul>
+                            <a href="#" class="btn" style="margin-top: 15px; display: inline-block;">Join as Volunteer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Google Map Embed (Placeholder) -->
+            <div style="margin-top: 60px;">
+                <h3 style="text-align: center; margin-bottom: 20px;">Campaign Office Location</h3>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <div style="text-align: center;">
+                            <i class="fas fa-map" style="font-size: 3rem; margin-bottom: 15px; color: var(--text-secondary);"></i>
+                            <p>Interactive Map Would Appear Here</p>
+                            <p style="font-size: 0.9rem; margin-top: 10px;">(Google Maps integration)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-lang="footer.about">About Campaign</h3>
+                    <p>Your voice matters. Contact us with your suggestions and concerns.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-lang="footer.quickLinks">Quick Links</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="index.html" style="color: var(--text-color); text-decoration: none;">Home</a></li>
+                        <li><a href="about.html" style="color: var(--text-color); text-decoration: none;">About Candidate</a></li>
+                        <li><a href="news.html" style="color: var(--text-color); text-decoration: none;">Campaign Updates</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-lang="footer.contact">Emergency Contact</h3>
+                    <p>For urgent matters:<br>
+                    +880 1712-345678<br>
+                    Available 24/7</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2024</span> Village Election Campaign. <span data-lang="footer.copyright">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

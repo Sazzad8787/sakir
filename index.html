@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Campaign - Home</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalpurush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body data-page-title="home.title">
+    <!-- Header -->
+    <header class="header">
+    <div class="container">
+        <div class="header-content">
+            <a href="image1.jpeg" class="logo">
+                <img src="image1.jpeg" class="logo-icon" alt="Village Election Logo">
+                <div class="logo-text">Village Election</div>
+            </a>
+                 <div class="controls">
+                    <button id="themeToggle" class="theme-toggle">
+                        <span>🌙</span> <span>Dark</span>
+                    </button>
+                    <button id="langToggle" class="lang-toggle">
+                        <span>🇧🇦</span> <span data-lang="btn.language">বাংলা</span>
+                    </button>
+                    <button id="menuToggle" class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h3 data-lang="nav.menu">Menu</h3>
+            <button id="closeMenu" class="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link active"><i class="nav-icon fas fa-home"></i><span data-lang="nav.home">Home</span></a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link"><i class="nav-icon fas fa-user"></i><span data-lang="nav.about">About</span></a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link"><i class="nav-icon fas fa-phone"></i><span data-lang="nav.contact">Contact</span></a></li>
+            <li class="nav-item"><a href="news.html" class="nav-link"><i class="nav-icon fas fa-newspaper"></i><span data-lang="nav.news">News & Events</span></a></li>
+            <li class="nav-item"><a href="download.html" class="nav-link"><i class="nav-icon fas fa-download"></i><span data-lang="nav.downloads">Downloads</span></a></li>
+            <li class="nav-item"><a href="reviews.html" class="nav-link"><i class="nav-icon fas fa-star"></i><span data-lang="nav.reviews">Voter Reviews</span></a></li>
+            <li class="nav-item"><a href="map.html" class="nav-link"><i class="nav-icon fas fa-map"></i><span data-lang="nav.map">Village Map</span></a></li>
+            <li class="nav-item"><a href="notice.html" class="nav-link"><i class="nav-icon fas fa-bullhorn"></i><span data-lang="nav.notice">Notice Board</span></a></li>
+            <li class="nav-item"><a href="developer.html" class="nav-link"><i class="nav-icon fas fa-code"></i><span data-lang="nav.developer">Developer</span></a></li>
+        </ul>
+    </div>
+    <div id="overlay" class="overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="image2.jpeg" alt="Candidate Photo" class="candidate-photo">
+                <h1 class="candidate-name" data-lang="home.heroTitle">Your Voice, Our Village</h1>
+                <p class="candidate-profession" data-lang="home.profession">Union Member Candidate</p>
+                <p class="slogan" data-lang="home.slogan">"Together for a Better Tomorrow"</p>
+                <a href="contact.html" class="btn btn-accent" data-lang="common.readMore">Join Our Movement</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Plans Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-lang="home.developmentTitle">If elected, I will improve the village by...</h2>
+            
+            <div class="development-grid">
+                <div class="development-item">
+                    <div class="dev-icon"><i class="fas fa-road"></i></div>
+                    <h3 data-lang="home.roadConstruction">Road & Bridge Construction</h3>
+                    <p data-lang="dev.road">Constructing durable roads and bridges for better connectivity</p>
+                </div>
+                
+                <div class="development-item">
+                    <div class="dev-icon"><i class="fas fa-tint"></i></div>
+                    <h3 data-lang="home.waterSupply">Clean Water Supply</h3>
+                    <p data-lang="dev.water">Ensuring clean drinking water for every household</p>
+                </div>
+                
+                <div class="development-item">
+                    <div class="dev-icon"><i class="fas fa-water"></i></div>
+                    <h3 data-lang="home.drainage">Drainage & Sanitation</h3>
+                    <p data-lang="dev.drainage">Modern drainage system to prevent waterlogging</p>
+                </div>
+                
+                <div class="development-item">
+                    <div class="dev-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3 data-lang="home.education">Education Improvement</h3>
+                    <p data-lang="dev.education">Better school facilities and scholarship programs</p>
+                </div>
+                
+                <div class="development-item">
+                    <div class="dev-icon"><i class="fas fa-hands-helping"></i></div>
+                    <h3 data-lang="home.elderly">Benefits for Elderly</h3>
+                    <p data-lang="dev.elderly">Monthly allowances and healthcare for senior citizens</p>
+                </div>
+                
+                <div class="development-item">
+                    <div class="dev-icon"><i class="fas fa-tractor"></i></div>
+                    <h3 data-lang="home.farmers">Support for Farmers</h3>
+                    <p data-lang="dev.farmers">Agricultural subsidies, training, and modern equipment</p>
+                </div>
+                
+                <div class="development-item">
+                    <div class="dev-icon"><i class="fas fa-laptop"></i></div>
+                    <h3 data-lang="home.digital">Digital Service Access</h3>
+                    <p data-lang="dev.digital">Digital Union Parishad services for easy access</p>
+                </div>
+                
+                <div class="development-item">
+                    <div class="dev-icon"><i class="fas fa-hospital"></i></div>
+                    <h3 data-lang="home.health">Healthcare Facilities</h3>
+                    <p data-lang="dev.health">Upgrading local healthcare center with modern facilities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Goals Section -->
+    <section class="section" style="background-color: var(--surface-color);">
+        <div class="container">
+            <h2 class="section-title" data-lang="home.visionTitle">My Vision & Goals</h2>
+            <div class="card">
+                <div class="card-content">
+                    <p data-lang="home.visionText" style="font-size: 1.1rem; line-height: 1.8;">
+                        My vision is to transform our village into a model community where every resident has access to basic amenities, quality education, healthcare, and employment opportunities. I aim to create transparent governance, encourage community participation in decision-making, and implement sustainable development projects that benefit all sections of society.
+                    </p>
+                    <div style="margin-top: 30px;">
+                        <h3>Key Objectives:</h3>
+                        <ul style="margin-top: 15px; padding-left: 20px;">
+                            <li>100% road connectivity to all households</li>
+                            <li>Clean drinking water supply to every family</li>
+                            <li>Digital literacy programs for youth</li>
+                            <li>Women empowerment through skill development</li>
+                            <li>Environment conservation initiatives</li>
+                            <li>Transparent fund utilization and reporting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Connect With Us</h2>
+            <div class="social-links">
+                <a href="https://www.facebook.com/md.solaiman.12637" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                <a href="https://wa.me/8801721749398" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                <button id="shareBtn" class="social-link"><i class="fas fa-share-alt"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-lang="footer.about">About Campaign</h3>
+                    <p>A grassroots movement for positive change in our village. Together we can build a better future for our children and generations to come.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-lang="footer.quickLinks">Quick Links</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="about.html" style="color: var(--text-color); text-decoration: none;">About Candidate</a></li>
+                        <li><a href="news.html" style="color: var(--text-color); text-decoration: none;">Latest News</a></li>
+                        <li><a href="download.html" style="color: var(--text-color); text-decoration: none;">Campaign Materials</a></li>
+                        <li><a href="contact.html" style="color: var(--text-color); text-decoration: none;">Volunteer</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-lang="footer.contact">Contact Info</h3>
+                    <p>Village Union Parishad Office<br>
+                    Contact: +8801721-749398<br>
+                    Email: candidate***@election.example</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span>Developer <a href="developer.html">Md Sazzad </a> <span data-lang="footer.copyright">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
